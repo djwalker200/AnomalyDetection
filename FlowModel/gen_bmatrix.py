@@ -66,7 +66,7 @@ def create_bmatrix(col1, col2):
     
     bin_matrix = np.zeros((rows, cols))
 
-    """ Load word and pos dictionaries concurrently """
+    """ Load word and pos dictionaries in parallel"""
     f1 = load_pos_dict.remote(col2)
     f2 = load_word_dict.remote(col1)
     
