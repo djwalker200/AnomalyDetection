@@ -21,7 +21,7 @@ bmatrix, word_id, id_word, pos_id, id_pos = create_bmatrix(pos_data[0], pos_data
 
 bmatrix is now N x 9; the combination of pos is taken into account
 
-The ray package is used for parallelization of loading the dictionaries; 
+The ray package is used for parallelizing the loading of dictionaries; 
 it is not necessary since data set is small
 
 """
