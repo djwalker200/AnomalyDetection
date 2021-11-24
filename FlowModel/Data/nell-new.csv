@@ -1,3 +1,4 @@
+entity,concept,relation
 concept:biotechcompany:aspect_medical_systems,concept:biotechcompany,59
 concept:company:limited_brands,concept:ceo:leslie_wexner,14
 concept:company:limited_brands,concept:retailstore,59
@@ -231,7 +232,7 @@ concept:biotechcompany:somerset_pharmaceuticals_inc,concept:biotechcompany,59
 concept:biotechcompany:international_medical_group,concept:biotechcompany,59
 concept:biotechcompany:united_dominion_industries_limited,concept:biotechcompany,59
 concept:biotechcompany:cellzome,concept:biotechcompany,59
-concept:company:cheveron,"40.4459000000000,-79.9577000000000",30
+concept:company:cheveron,40.4459000000000;-79.9577000000000,30
 concept:company:cheveron,concept:company,59
 concept:biotechcompany:panavision_inc,concept:biotechcompany,59
 concept:biotechcompany:taubman_centers_inc,concept:biotechcompany,59
@@ -504,7 +505,7 @@ concept:biotechcompany:mosys_inc,concept:biotechcompany,59
 concept:biotechcompany:dakota_pharmaceuticals,concept:biotechcompany,59
 concept:biotechcompany:cell_signaling_technologies,concept:biotechcompany,59
 concept:biotechcompany:autoimmune_inc,concept:biotechcompany,59
-concept:mountain:licancabur,"-22.8333300000000,-67.8833300000000",30
+concept:mountain:licancabur,-22.8333300000000;-67.8833300000000,30
 concept:biotechcompany:central_bancorp_inc,concept:biotechcompany,59
 concept:biotechcompany:uex_corp,concept:biotechcompany,59
 concept:biotechcompany:sandisk_corp,concept:biotechcompany,59
@@ -1732,7 +1733,7 @@ concept:biotechcompany:roche,concept:company,59
 concept:biotechcompany:bill_barrett_corp,concept:biotechcompany,59
 concept:biotechcompany:flushing_financial,concept:biotechcompany,59
 concept:biotechcompany:superior_energy_services,concept:biotechcompany,59
-concept:biotechcompany:tacl,"13.5333300000000,37.4833300000000",30
+concept:biotechcompany:tacl,13.5333300000000;37.4833300000000,30
 concept:biotechcompany:logitech,concept:company:ultimate_ears,0
 concept:biotechcompany:logitech,concept:biotechcompany,59
 concept:biotechcompany:logitech,concept:company,59
@@ -2855,7 +2856,7 @@ concept:biotechcompany:mauna_kea_volcano,concept:biotechcompany,59
 concept:biotechcompany:mauna_kea_volcano,concept:mountainrange,59
 concept:biotechcompany:n4_26_cipla,concept:biotechcompany,59
 concept:biotechcompany:aegerion_pharmaceuticals_inc,concept:biotechcompany,59
-concept:biotechcompany:okmok,"53.4481950000000,-168.1547200000000",30
+concept:biotechcompany:okmok,53.4481950000000;-168.1547200000000,30
 concept:biotechcompany:okmok,concept:stateorprovince:alaska,35
 concept:biotechcompany:okmok,concept:biotechcompany,59
 concept:biotechcompany:michael_baker_corp,concept:biotechcompany,59
@@ -2863,7 +2864,7 @@ concept:biotechcompany:realty_income_corp,concept:biotechcompany,59
 concept:biotechcompany:balchem_corp,concept:biotechcompany,59
 concept:biotechcompany:uranium_power_corp,concept:biotechcompany,59
 concept:company:i_pro,concept:company,59
-concept:biotechcompany:redoubt_volcano,"60.4852800000000,-152.7430600000000",30
+concept:biotechcompany:redoubt_volcano,60.4852800000000;-152.7430600000000,30
 concept:biotechcompany:redoubt_volcano,concept:biotechcompany,59
 concept:biotechcompany:syniverse_holdings_inc,concept:biotechcompany,59
 concept:biotechcompany:informix_corp,concept:biotechcompany,59
@@ -3084,7 +3085,7 @@ concept:company:western_digital,concept:company,59
 concept:biotechcompany:asat_holdings_ltd,concept:biotechcompany,59
 concept:biotechcompany:one_voice_technologies_inc,concept:biotechcompany,59
 concept:biotechcompany:pierce_chemical,concept:biotechcompany,59
-concept:biotechcompany:curtiss_wright,"40.7118050000000,-73.8481950000000",30
+concept:biotechcompany:curtiss_wright,40.7118050000000;-73.8481950000000,30
 concept:biotechcompany:acusphere_inc,concept:biotechcompany,59
 concept:company:blackwater_xe,concept:company,59
 concept:biotechcompany:incyte_corp,concept:biotechcompany,59
@@ -4490,11 +4491,11 @@ concept:biotechcompany:choice_hotels_intl_inc,concept:biotechcompany,59
 concept:company:nvidia_corp_,concept:company,59
 concept:biotechcompany:kite_realty_group_trust,concept:biotechcompany,59
 concept:biotechcompany:aradigm_corporation,concept:biotechcompany,59
-concept:biotechcompany:philips_lighting,"40.8723200000000,-74.5296000000000",30
+concept:biotechcompany:philips_lighting,40.8723200000000;-74.5296000000000,30
 concept:biotechcompany:ishares_msci_eafe_value_index,concept:biotechcompany,59
 concept:biotechcompany:greater_bay_bancorp,concept:biotechcompany,59
 concept:biotechcompany:forest_laboratories_inc,concept:biotechcompany,59
-concept:hobby:adams_golf,"46.3381800000000,-120.3197800000000",30
+concept:hobby:adams_golf,46.3381800000000;-120.3197800000000,30
 concept:mountain:novarupta,concept:mountain,59
 concept:biotechcompany:pharmaton_natural_health_products,concept:biotechcompany,59
 concept:biotechcompany:dresserrand_group_inc,concept:biotechcompany,59
@@ -4638,7 +4639,7 @@ concept:biotechcompany:lydall_inc,concept:biotechcompany,59
 concept:biotechcompany:earthlink_inc,concept:biotechcompany,59
 concept:biotechcompany:parallele_bioscience_inc,concept:biotechcompany,59
 concept:biotechcompany:rehabilicare,concept:biotechcompany,59
-concept:biotechcompany:hercules_offshore,"28.9666400000000,-95.2907700000000",30
+concept:biotechcompany:hercules_offshore,28.9666400000000;-95.2907700000000,30
 concept:biotechcompany:syntroleum_corp,concept:biotechcompany,59
 concept:biotechcompany:american_technology_corp,concept:biotechcompany,59
 concept:company:realtek,concept:company,59
@@ -4793,7 +4794,7 @@ concept:biotechcompany:alphapharm,concept:biotechcompany,59
 concept:biotechcompany:merit_medical_systems,concept:biotechcompany,59
 concept:biotechcompany:panacos_pharmaceuticals_inc,concept:biotechcompany,59
 concept:biotechcompany:embraer_legacy_600,concept:biotechcompany,59
-concept:company:hollywood_entertainment,"34.1019400000000,-118.3425000000000",30
+concept:company:hollywood_entertainment,34.1019400000000;-118.3425000000000,30
 concept:company:hollywood_entertainment,concept:company,59
 concept:biotechcompany:wealthcraft_systems_inc,concept:biotechcompany,59
 concept:biotechcompany:citizens_south_banking_corp,concept:biotechcompany,59
@@ -4835,7 +4836,7 @@ concept:biotechcompany:aetna_inc,concept:company,59
 concept:biotechcompany:axiombio,concept:biotechcompany,59
 concept:biotechcompany:radisys_corporation,concept:biotechcompany,59
 concept:biotechcompany:western_copper_corp,concept:biotechcompany,59
-concept:company:planview,"40.7669400000000,-73.8858300000000",30
+concept:company:planview,40.7669400000000;-73.8858300000000,30
 concept:biotechcompany:alpharx_inc,concept:biotechcompany,59
 concept:biotechcompany:glaxo_smith_kline,concept:biotechcompany,59
 concept:biotechcompany:ishares_barclays_short_treasury_bond_fund,concept:biotechcompany,59
@@ -5076,7 +5077,7 @@ concept:biotechcompany:witness_systems_inc,concept:biotechcompany,59
 concept:biotechcompany:united_natural_foods_inc,concept:biotechcompany,59
 concept:biotechcompany:conceptus,concept:biotechcompany,59
 concept:biotechcompany:genetic_testing_set_for_big_boost_with_new,concept:biotechcompany,59
-concept:biotechcompany:thule_island,"-59.4500000000000,-27.3166700000000",30
+concept:biotechcompany:thule_island,-59.4500000000000;-27.3166700000000,30
 concept:biotechcompany:neurogen,concept:biotechcompany,59
 concept:biotechcompany:capital_senior_living,concept:biotechcompany,59
 concept:biotechcompany:css_industries_inc,concept:biotechcompany,59
@@ -7636,7 +7637,7 @@ concept:biotechcompany:excel_technology_inc,concept:biotechcompany,59
 concept:biotechcompany:washington_reit,concept:biotechcompany,59
 concept:biotechcompany:novogen_limited,concept:biotechcompany,59
 concept:biotechcompany:american_natural_energy_corp,concept:biotechcompany,59
-concept:biotechcompany:axcan,"29.1166700000000,-10.3666700000000",30
+concept:biotechcompany:axcan,29.1166700000000;-10.3666700000000,30
 concept:biotechcompany:jrh_biosciences,concept:biotechcompany,59
 concept:biotechcompany:abcam,concept:biotechcompany,59
 concept:biotechcompany:mercantile_bankshares_corp,concept:biotechcompany,59
@@ -8838,7 +8839,7 @@ concept:biotechcompany:neurogesx,concept:biotechcompany,59
 concept:biotechcompany:compucyte_corporation,concept:biotechcompany,59
 concept:biotechcompany:sterling_chemicals_inc,concept:biotechcompany,59
 concept:biotechcompany:point_of_care_technologies,concept:biotechcompany,59
-concept:biotechcompany:halemaumau,"19.4106950000000,-155.2802750000000",30
+concept:biotechcompany:halemaumau,19.4106950000000;-155.2802750000000,30
 concept:biotechcompany:enerplus_resources,concept:biotechcompany,59
 concept:biotechcompany:jds_pharmaceuticals,concept:biotechcompany,59
 concept:biotechcompany:savannah_bancorp,concept:biotechcompany,59
@@ -8867,7 +8868,7 @@ concept:retailstore:les_galeries_lafayette,concept:retailstore,59
 concept:biotechcompany:b_n_c_bancorp,concept:biotechcompany,59
 concept:company:martek_biosciences,concept:company,59
 concept:biotechcompany:millennium_bankshares_corp,concept:biotechcompany,59
-concept:retailstore:nordstrum,"49.8583400000000,-114.8798300000000",30
+concept:retailstore:nordstrum,49.8583400000000;-114.8798300000000,30
 concept:retailstore:nordstrum,concept:retailstore,59
 concept:biotechcompany:merz_pharma,concept:biotechcompany,59
 concept:biotechcompany:park_ohio_holdings_corp,concept:biotechcompany,59
@@ -9496,7 +9497,7 @@ concept:biotechcompany:tyco_healthcare,concept:organization,59
 concept:biotechcompany:tyco_healthcare,concept:company,59
 concept:biotechcompany:mannkind_corporation,concept:biotechcompany,59
 concept:biotechcompany:spatializer_audio_laboratories_inc,concept:biotechcompany,59
-concept:biotechcompany:bnr,"26.7354500000000,57.7631000000000",30
+concept:biotechcompany:bnr,26.7354500000000;57.7631000000000,30
 concept:biotechcompany:dobson_communications_corp,concept:biotechcompany,59
 concept:biotechcompany:mylan_pharmaceuticals_inc_,concept:biotechcompany,59
 concept:biotechcompany:terex_corp,concept:biotechcompany,59
@@ -9525,7 +9526,7 @@ concept:biotechcompany:autobytel_inc,concept:biotechcompany,59
 concept:biotechcompany:autobytel_inc,concept:company,59
 concept:biotechcompany:kindred_healthcare_inc,concept:biotechcompany,59
 concept:biotechcompany:geneva_pharmaceuticals,concept:biotechcompany,59
-concept:location:kilauea_iki,"19.4170800000000,-155.2529150000000",30
+concept:location:kilauea_iki,19.4170800000000;-155.2529150000000,30
 concept:biotechcompany:ebay,concept:website:stumbleupon,0
 concept:biotechcompany:ebay,concept:website:shopping_com,0
 concept:biotechcompany:ebay,concept:ceo:john_donahoe,3

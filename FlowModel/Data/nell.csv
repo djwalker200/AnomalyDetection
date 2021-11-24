@@ -232,7 +232,7 @@ concept:biotechcompany:somerset_pharmaceuticals_inc,concept:biotechcompany,gener
 concept:biotechcompany:international_medical_group,concept:biotechcompany,generalizations
 concept:biotechcompany:united_dominion_industries_limited,concept:biotechcompany,generalizations
 concept:biotechcompany:cellzome,concept:biotechcompany,generalizations
-concept:company:cheveron,"40.4459000000000,-79.9577000000000",concept:latitudelongitude
+concept:company:cheveron,40.4459000000000;-79.9577000000000,concept:latitudelongitude
 concept:company:cheveron,concept:company,generalizations
 concept:biotechcompany:panavision_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:taubman_centers_inc,concept:biotechcompany,generalizations
@@ -505,7 +505,7 @@ concept:biotechcompany:mosys_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:dakota_pharmaceuticals,concept:biotechcompany,generalizations
 concept:biotechcompany:cell_signaling_technologies,concept:biotechcompany,generalizations
 concept:biotechcompany:autoimmune_inc,concept:biotechcompany,generalizations
-concept:mountain:licancabur,"-22.8333300000000,-67.8833300000000",concept:latitudelongitude
+concept:mountain:licancabur,-22.8333300000000;-67.8833300000000,concept:latitudelongitude
 concept:biotechcompany:central_bancorp_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:uex_corp,concept:biotechcompany,generalizations
 concept:biotechcompany:sandisk_corp,concept:biotechcompany,generalizations
@@ -1733,7 +1733,7 @@ concept:biotechcompany:roche,concept:company,generalizations
 concept:biotechcompany:bill_barrett_corp,concept:biotechcompany,generalizations
 concept:biotechcompany:flushing_financial,concept:biotechcompany,generalizations
 concept:biotechcompany:superior_energy_services,concept:biotechcompany,generalizations
-concept:biotechcompany:tacl,"13.5333300000000,37.4833300000000",concept:latitudelongitude
+concept:biotechcompany:tacl,13.5333300000000;37.4833300000000,concept:latitudelongitude
 concept:biotechcompany:logitech,concept:company:ultimate_ears,concept:acquired
 concept:biotechcompany:logitech,concept:biotechcompany,generalizations
 concept:biotechcompany:logitech,concept:company,generalizations
@@ -2856,7 +2856,7 @@ concept:biotechcompany:mauna_kea_volcano,concept:biotechcompany,generalizations
 concept:biotechcompany:mauna_kea_volcano,concept:mountainrange,generalizations
 concept:biotechcompany:n4_26_cipla,concept:biotechcompany,generalizations
 concept:biotechcompany:aegerion_pharmaceuticals_inc,concept:biotechcompany,generalizations
-concept:biotechcompany:okmok,"53.4481950000000,-168.1547200000000",concept:latitudelongitude
+concept:biotechcompany:okmok,53.4481950000000;-168.1547200000000,concept:latitudelongitude
 concept:biotechcompany:okmok,concept:stateorprovince:alaska,concept:mountaininstate
 concept:biotechcompany:okmok,concept:biotechcompany,generalizations
 concept:biotechcompany:michael_baker_corp,concept:biotechcompany,generalizations
@@ -2864,7 +2864,7 @@ concept:biotechcompany:realty_income_corp,concept:biotechcompany,generalizations
 concept:biotechcompany:balchem_corp,concept:biotechcompany,generalizations
 concept:biotechcompany:uranium_power_corp,concept:biotechcompany,generalizations
 concept:company:i_pro,concept:company,generalizations
-concept:biotechcompany:redoubt_volcano,"60.4852800000000,-152.7430600000000",concept:latitudelongitude
+concept:biotechcompany:redoubt_volcano,60.4852800000000;-152.7430600000000,concept:latitudelongitude
 concept:biotechcompany:redoubt_volcano,concept:biotechcompany,generalizations
 concept:biotechcompany:syniverse_holdings_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:informix_corp,concept:biotechcompany,generalizations
@@ -3085,7 +3085,7 @@ concept:company:western_digital,concept:company,generalizations
 concept:biotechcompany:asat_holdings_ltd,concept:biotechcompany,generalizations
 concept:biotechcompany:one_voice_technologies_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:pierce_chemical,concept:biotechcompany,generalizations
-concept:biotechcompany:curtiss_wright,"40.7118050000000,-73.8481950000000",concept:latitudelongitude
+concept:biotechcompany:curtiss_wright,40.7118050000000;-73.8481950000000,concept:latitudelongitude
 concept:biotechcompany:acusphere_inc,concept:biotechcompany,generalizations
 concept:company:blackwater_xe,concept:company,generalizations
 concept:biotechcompany:incyte_corp,concept:biotechcompany,generalizations
@@ -4491,11 +4491,11 @@ concept:biotechcompany:choice_hotels_intl_inc,concept:biotechcompany,generalizat
 concept:company:nvidia_corp_,concept:company,generalizations
 concept:biotechcompany:kite_realty_group_trust,concept:biotechcompany,generalizations
 concept:biotechcompany:aradigm_corporation,concept:biotechcompany,generalizations
-concept:biotechcompany:philips_lighting,"40.8723200000000,-74.5296000000000",concept:latitudelongitude
+concept:biotechcompany:philips_lighting,40.8723200000000;-74.5296000000000,concept:latitudelongitude
 concept:biotechcompany:ishares_msci_eafe_value_index,concept:biotechcompany,generalizations
 concept:biotechcompany:greater_bay_bancorp,concept:biotechcompany,generalizations
 concept:biotechcompany:forest_laboratories_inc,concept:biotechcompany,generalizations
-concept:hobby:adams_golf,"46.3381800000000,-120.3197800000000",concept:latitudelongitude
+concept:hobby:adams_golf,46.3381800000000;-120.3197800000000,concept:latitudelongitude
 concept:mountain:novarupta,concept:mountain,generalizations
 concept:biotechcompany:pharmaton_natural_health_products,concept:biotechcompany,generalizations
 concept:biotechcompany:dresserrand_group_inc,concept:biotechcompany,generalizations
@@ -4639,7 +4639,7 @@ concept:biotechcompany:lydall_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:earthlink_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:parallele_bioscience_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:rehabilicare,concept:biotechcompany,generalizations
-concept:biotechcompany:hercules_offshore,"28.9666400000000,-95.2907700000000",concept:latitudelongitude
+concept:biotechcompany:hercules_offshore,28.9666400000000;-95.2907700000000,concept:latitudelongitude
 concept:biotechcompany:syntroleum_corp,concept:biotechcompany,generalizations
 concept:biotechcompany:american_technology_corp,concept:biotechcompany,generalizations
 concept:company:realtek,concept:company,generalizations
@@ -4794,7 +4794,7 @@ concept:biotechcompany:alphapharm,concept:biotechcompany,generalizations
 concept:biotechcompany:merit_medical_systems,concept:biotechcompany,generalizations
 concept:biotechcompany:panacos_pharmaceuticals_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:embraer_legacy_600,concept:biotechcompany,generalizations
-concept:company:hollywood_entertainment,"34.1019400000000,-118.3425000000000",concept:latitudelongitude
+concept:company:hollywood_entertainment,34.1019400000000;-118.3425000000000,concept:latitudelongitude
 concept:company:hollywood_entertainment,concept:company,generalizations
 concept:biotechcompany:wealthcraft_systems_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:citizens_south_banking_corp,concept:biotechcompany,generalizations
@@ -4836,7 +4836,7 @@ concept:biotechcompany:aetna_inc,concept:company,generalizations
 concept:biotechcompany:axiombio,concept:biotechcompany,generalizations
 concept:biotechcompany:radisys_corporation,concept:biotechcompany,generalizations
 concept:biotechcompany:western_copper_corp,concept:biotechcompany,generalizations
-concept:company:planview,"40.7669400000000,-73.8858300000000",concept:latitudelongitude
+concept:company:planview,40.7669400000000;-73.8858300000000,concept:latitudelongitude
 concept:biotechcompany:alpharx_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:glaxo_smith_kline,concept:biotechcompany,generalizations
 concept:biotechcompany:ishares_barclays_short_treasury_bond_fund,concept:biotechcompany,generalizations
@@ -5077,7 +5077,7 @@ concept:biotechcompany:witness_systems_inc,concept:biotechcompany,generalization
 concept:biotechcompany:united_natural_foods_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:conceptus,concept:biotechcompany,generalizations
 concept:biotechcompany:genetic_testing_set_for_big_boost_with_new,concept:biotechcompany,generalizations
-concept:biotechcompany:thule_island,"-59.4500000000000,-27.3166700000000",concept:latitudelongitude
+concept:biotechcompany:thule_island,-59.4500000000000;-27.3166700000000,concept:latitudelongitude
 concept:biotechcompany:neurogen,concept:biotechcompany,generalizations
 concept:biotechcompany:capital_senior_living,concept:biotechcompany,generalizations
 concept:biotechcompany:css_industries_inc,concept:biotechcompany,generalizations
@@ -7637,7 +7637,7 @@ concept:biotechcompany:excel_technology_inc,concept:biotechcompany,generalizatio
 concept:biotechcompany:washington_reit,concept:biotechcompany,generalizations
 concept:biotechcompany:novogen_limited,concept:biotechcompany,generalizations
 concept:biotechcompany:american_natural_energy_corp,concept:biotechcompany,generalizations
-concept:biotechcompany:axcan,"29.1166700000000,-10.3666700000000",concept:latitudelongitude
+concept:biotechcompany:axcan,29.1166700000000;-10.3666700000000,concept:latitudelongitude
 concept:biotechcompany:jrh_biosciences,concept:biotechcompany,generalizations
 concept:biotechcompany:abcam,concept:biotechcompany,generalizations
 concept:biotechcompany:mercantile_bankshares_corp,concept:biotechcompany,generalizations
@@ -8839,7 +8839,7 @@ concept:biotechcompany:neurogesx,concept:biotechcompany,generalizations
 concept:biotechcompany:compucyte_corporation,concept:biotechcompany,generalizations
 concept:biotechcompany:sterling_chemicals_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:point_of_care_technologies,concept:biotechcompany,generalizations
-concept:biotechcompany:halemaumau,"19.4106950000000,-155.2802750000000",concept:latitudelongitude
+concept:biotechcompany:halemaumau,19.4106950000000;-155.2802750000000,concept:latitudelongitude
 concept:biotechcompany:enerplus_resources,concept:biotechcompany,generalizations
 concept:biotechcompany:jds_pharmaceuticals,concept:biotechcompany,generalizations
 concept:biotechcompany:savannah_bancorp,concept:biotechcompany,generalizations
@@ -8868,7 +8868,7 @@ concept:retailstore:les_galeries_lafayette,concept:retailstore,generalizations
 concept:biotechcompany:b_n_c_bancorp,concept:biotechcompany,generalizations
 concept:company:martek_biosciences,concept:company,generalizations
 concept:biotechcompany:millennium_bankshares_corp,concept:biotechcompany,generalizations
-concept:retailstore:nordstrum,"49.8583400000000,-114.8798300000000",concept:latitudelongitude
+concept:retailstore:nordstrum,49.8583400000000;-114.8798300000000,concept:latitudelongitude
 concept:retailstore:nordstrum,concept:retailstore,generalizations
 concept:biotechcompany:merz_pharma,concept:biotechcompany,generalizations
 concept:biotechcompany:park_ohio_holdings_corp,concept:biotechcompany,generalizations
@@ -9497,7 +9497,7 @@ concept:biotechcompany:tyco_healthcare,concept:organization,generalizations
 concept:biotechcompany:tyco_healthcare,concept:company,generalizations
 concept:biotechcompany:mannkind_corporation,concept:biotechcompany,generalizations
 concept:biotechcompany:spatializer_audio_laboratories_inc,concept:biotechcompany,generalizations
-concept:biotechcompany:bnr,"26.7354500000000,57.7631000000000",concept:latitudelongitude
+concept:biotechcompany:bnr,26.7354500000000;57.7631000000000,concept:latitudelongitude
 concept:biotechcompany:dobson_communications_corp,concept:biotechcompany,generalizations
 concept:biotechcompany:mylan_pharmaceuticals_inc_,concept:biotechcompany,generalizations
 concept:biotechcompany:terex_corp,concept:biotechcompany,generalizations
@@ -9526,7 +9526,7 @@ concept:biotechcompany:autobytel_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:autobytel_inc,concept:company,generalizations
 concept:biotechcompany:kindred_healthcare_inc,concept:biotechcompany,generalizations
 concept:biotechcompany:geneva_pharmaceuticals,concept:biotechcompany,generalizations
-concept:location:kilauea_iki,"19.4170800000000,-155.2529150000000",concept:latitudelongitude
+concept:location:kilauea_iki,19.4170800000000;-155.2529150000000,concept:latitudelongitude
 concept:biotechcompany:ebay,concept:website:stumbleupon,concept:acquired
 concept:biotechcompany:ebay,concept:website:shopping_com,concept:acquired
 concept:biotechcompany:ebay,concept:ceo:john_donahoe,concept:agentcollaborateswithagent
