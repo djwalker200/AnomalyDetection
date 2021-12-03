@@ -13,46 +13,23 @@ import json
 
 from time import time
 
-# Converts the node feature matrix into a dictionary
+# Converts the node feature dictionary to numpy format
 #
 # Parameters:
-# feature_matrix - matrix containing node features in which each row corresponds to the features of a node
-# indexed - boolean variable denoting whether or not the first column of the feature matrix contains node indices           
-# class_matrix - matrix that stores the class of each node
-# name_converter - dictionary that converts integer class tags to string labels (optional) 
-# Output:
-# feature_dict - dictionary of form (node ID : <attribute vector>)
-# class_dict - dictionary of form (node ID : class label)
-def setupFeatures(feature_matrix,indexed=True,class_matrix=None,name_converter = None):
-
-    feature_dict = {}
-    class_dict = {}
-    mtx = feature_matrix[:,1:-1]
-   
-    if indexed:
-
-        for i in range(feature_matrix.shape[0]):
-            
-            idx = feature_matrix[i,0]
-            #Stores the pair of (node ID : <attribute vector>)
-            feature_dict[idx] = mtx[i,:]
-            #Stores the pair of (node ID : class label)
-            cl = feature_matrix[i,-1]
-            if name_converter is not None:
-                class_dict[idx] = name_converter[cl]
-            else:
-                class_dict[idx] = cl
-    else:
-        for i in range(feature_matrix.shape[0]):
-            feature_dict[i] = feature_matrix[i].astype(np.float32)
-            cl = class_matrix[i]
-            if name_converter is not None:
-                class_dict[idx] = name_converter[cl]
-            else:
-                class_dict[i] = cl
-
-
-    return feature_dict,class_dict
+# feature_dict - dictionary of node features with string keys and string values holding the node features
+def setupFeatures(feature_dict,NODE_FEATURES):
+    result = {}
+    for key in feature_dict:
+        feat = feature_dict[key]
+        li = list(feat.split(","))
+        if len(li) == NODE_FEATURES:
+            li[0] = li[0][1:]
+            li[-1] = li[-1][:-1]
+            features = [float(x) for x in li]
+            result[key] = np.array(features)
+        
+        
+    return result
 
 # Returms the class labels of an ordered set of nodes
 #
@@ -367,8 +344,7 @@ def generateFeatures(SubG,node_order,feature_dict,EDGE_FEATURES,NODE_FEATURES):
         for j,node in enumerate(node_order):
             feature = feature_dict.get(node)
             if feature is not None:
-                X[j,:] = np.array(np.fromstring(feature[1:-1], dtype=int, sep=','))   
-
+                X[j,:] = feature  
     #Used if nodes are unattributed
     elif NODE_FEATURES == 1:
         X = np.ones(num_nodes)

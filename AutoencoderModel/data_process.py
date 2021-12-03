@@ -43,13 +43,13 @@ if __name__ == "__main__":
     #Type of anomaly to generate
     anomaly_type = 'Clique'
     #Search depth for BFS
-    BFS_DEPTH = 2
+    BFS_DEPTH = 1
     #Length of walks to be used in random walk neighborhood generation
     WALK_LENGTH = 2
     #Number of walks to be used in random walk neighborhood generation
     NUM_WALKS = 60
     #Maximum allowed size for a BFS neighborhood
-    MAX_SIZE = 30
+    MAX_SIZE = 20
 
     if folder == "Data":
             G = nx.read_edgelist("nell-new.csv",create_using=nx.Graph(),nodetype=str,
@@ -59,8 +59,8 @@ if __name__ == "__main__":
         G = nx.read_edgelist(folder + '_edges.txt',create_using=nx.Graph(),nodetype=str)
     cols = list(range(0,NODE_FEATURES + 1))
     cols.append(-1)
-    node_feature_dict = pd.read_csv("nell-node-feature.csv", header=None, index_col=0,sep='\t', squeeze=True).to_dict()
-
+    nf_dict = pd.read_csv("nell-node-feature.csv", header=None, index_col=0,sep='\t', squeeze=True).to_dict()
+    node_feature_dict = setupFeatures(nf_dict,NODE_FEATURES)
     '''
     if NODE_FEATURES > 1:
         node_feature_matrix = np.loadtxt(folder + '_features.txt',usecols=cols,dtype=str)
@@ -136,7 +136,6 @@ if __name__ == "__main__":
 
         #Generates the features of the graph
         adjacency_tensor,X = generateFeatures(SubG,bfs_order,node_feature_dict,EDGE_FEATURES,NODE_FEATURES)
-        
         num_nodes = X.shape[0]
         #Stores the features to the correct sets
         if  i < n_train:
@@ -227,7 +226,7 @@ if __name__ == "__main__":
     anom_triangles = np.array(anom_triangles)
     
     #Discards all training samples that are too small
-    
+    '''
     train_matrices = train_matrices[train_sizes > 3]
     train_features = train_features[train_sizes > 3]
     total_degrees = total_degrees[train_sizes > 3]
@@ -243,7 +242,7 @@ if __name__ == "__main__":
     extra_degrees = anom_degrees[anom_sizes > 3]
     anom_triangles = anom_triangles[anom_sizes > 3]
     anom_sizes = anom_sizes[anom_sizes > 3]
-    
+    '''
 
     print('Max dependency:',max_dependency)
     print('Training dataset node stats: mean - {:.2f} std - {:.2f}, [{:.2f},{:.2f}]'.format(np.average(train_sizes), np.std(train_sizes), np.amin(train_sizes),np.amax(train_sizes)))
