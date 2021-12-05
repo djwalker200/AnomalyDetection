@@ -43,7 +43,7 @@ if __name__ == "__main__":
     #Type of anomaly to generate
     anomaly_type = 'Clique'
     #Search depth for BFS
-    BFS_DEPTH = 1
+    BFS_DEPTH = 2
     #Length of walks to be used in random walk neighborhood generation
     WALK_LENGTH = 2
     #Number of walks to be used in random walk neighborhood generation
